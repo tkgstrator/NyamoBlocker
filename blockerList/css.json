@@ -1,0 +1,29 @@
+[
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[class^='ad-'], div[class^='ad_']"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[class^='google-user-ad-']"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".section-box"
+        },
+        "trigger": {
+            "url-filter": ".*"
+        }
+    }
+]
