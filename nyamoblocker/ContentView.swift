@@ -8,9 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isEnable: [Bool] = [false, false, false]
+    @State var version: String = String(describing: Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")!)
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+//            Text("Version: \(version)")
+//                .frame(maxWidth: .infinity)
+            List {
+                Section(header: Text("Settings")) {
+                    Toggle(isOn: $isEnable[0]) {
+                        Text("Block Ads")
+                    }
+                    Text("Update List")
+                }
+                Section(header: Text("Support")) {
+                    Text("Follow @Herlingum")
+                }
+            }
+            .navigationBarTitle("Nyamo Blocker")
+            .listStyle(GroupedListStyle())
+        }
     }
 }
 
