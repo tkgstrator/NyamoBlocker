@@ -1,45 +1,79 @@
-[class^='ad-'] .*
-[class^='ad_'] .*
-[class^='ad'] pc.watch.impress.co.jp
-.static-center-top-pcw pc.watch.impress.co.jp
-.announce-block pc.watch.impress.co.jp
-.p-post-ad gizmodo.jp
-#module-engadget-deeplink-top-ad japanese.engadget.com
-#post-center-col>div>div>div:not(:first-child) japanese.engadget.com
-#module-engadget-homepage-hero>div>div.D\(f\) japanese.engadget.com
-#module-engadget-homepage-streams>div>div>div>div.W\(100\%\).Pb\(20px\).Bdbc\(engadgetWhiteSmoke\).Bdbs\(s\).Bdbw\(1px\)>div japanese.engadget.com
-#module-engadget-homepage-streams>div>div>div>div.D\(f\).Ai\(st\).Pos\(r\).Z\(1\).Jc\(c\).Mt\(15px\).Mb\(35px\).Mih\(250px\) japanese.engadget.com
-#module-engadget-deeplink-streams>div>div>div>div.D\(f\).Ai\(st\).Pos\(r\).Z\(1\).Jc\(c\).Mt\(15px\).Mb\(35px\).Mih\(250px\) japanese.engadget.com
-.below-article-body japanese.engadget.com
-#post-bottom-social-share japanese.engadget.com
-.social-follow japanese.engadget.com
-.D\(b\)\!--sm japanese.engadget.com
-#taboola-below-article-thumbnails-2nd japanese.engadget.com
-[id^='RR-BTF'] japanese.engadget.com
-p>.athena-button japanese.engadget.com
-.Bgc(engadgetWhiteSmoke) japanese.engadget.com
-.e_frame gigazine.net
-#EndFooter gigazine.net
-.followbeta gigazine.net
-.items gigazine.net
-#Google_RT gigazine.net
-#article-1_5 blog.livedoor.jp
-#pbp_ranking blog.livedoor.jp
-#blog_news blog.livedoor.jp
-#blog_ranking blog.livedoor.jp
-.footer-external-links blog.livedoor.jp
-.footer-blog-banner blog.livedoor.jp
-.ad2 blog.livedoor.jp
-body>div>div>div.content>aside>.plugin-follow_buttons blog.livedoor.jp
-body>div>div>div.content>aside>.plugin-message_board blog.livedoor.jp
-body>div>div>div.content>nav>.article-button-simple blog.livedoor.jp
-body>div>div>div.content>div>.image-item blog.livedoor.jp
-body>div>div>div.content>aside>.plugin-blogroll blog.livedoor.jp
-body>div.container>div.container-inner>div.content>nav>.article-button blog.livedoor.jp
-body>div.container>div.container-inner>aside>.plugin-twitter_profile blog.livedoor.jp
-body>div.container>div.container-inner>aside>.plugin-follow_buttons blog.livedoor.jp
-body>div.container>div.container-inner>aside>.plugin-blogroll blog.livedoor.jp
-body>div.container>div.container-inner>aside>.plugin-twitter_follow_button blog.livedoor.jp
-body>div.container>div.container-inner>div.content>div>div.blog_ad2 blog.livedoor.jp
-.blogreader-link blog.livedoor.jp
-#ld-floating-menu blog.livedoor.jp
+// .*
+[class^='ad-']
+[class^='ad_']
+
+// pc.watch.impress.co.jp
+[class^='ad']
+.static-center-top-pcw
+.announce-block
+
+// gizmode.jp
+.p-post-ad
+
+// japanese.engadget.com
+#module-engadget-deeplink-top-ad
+#post-center-col>div>div>div:not(:first-child)
+#module-engadget-homepage-hero>div>div.D\(f\)
+#module-engadget-homepage-streams>div>div>div>div.W\(100\%\).Pb\(20px\).Bdbc\(engadgetWhiteSmoke\).Bdbs\(s\).Bdbw\(1px\)>div
+#module-engadget-homepage-streams>div>div>div>div.D\(f\).Ai\(st\).Pos\(r\).Z\(1\).Jc\(c\).Mt\(15px\).Mb\(35px\).Mih\(250px\)
+#module-engadget-deeplink-streams>div>div>div>div.D\(f\).Ai\(st\).Pos\(r\).Z\(1\).Jc\(c\).Mt\(15px\).Mb\(35px\).Mih\(250px\)
+.below-article-body
+#post-bottom-social-share
+.social-follow
+.D\(b\)\!--sm
+#taboola-below-article-thumbnails-2nd
+[id^='RR-BTF']
+p>.athena-button
+.Bgc(engadgetWhiteSmoke)
+
+// gigazine.net
+.e_frame
+#EndFooter
+.followbeta
+.items
+#Google_RT
+
+// blog.livedoor.jp
+#article-1_5
+#pbp_ranking
+#blog_news
+#blog_ranking
+.footer-external-links
+.footer-blog-banner
+.ad2
+body>div>div>div.content>aside>.plugin-follow_buttons
+body>div>div>div.content>aside>.plugin-message_board
+body>div>div>div.content>nav>.article-button-simple
+body>div>div>div.content>div>.image-item
+body>div>div>div.content>aside>.plugin-blogroll
+body>div.container>div.container-inner>div.content>nav>.article-button
+body>div.container>div.container-inner>aside>.plugin-twitter_profile
+body>div.container>div.container-inner>aside>.plugin-follow_buttons
+body>div.container>div.container-inner>aside>.plugin-blogroll
+body>div.container>div.container-inner>aside>.plugin-twitter_follow_button
+body>div.container>div.container-inner>div.content>div>div.blog_ad2
+.blogreader-link
+#ld-floating-menu
+
+// news4vip.livedoor.biz
+#f984a
+#article-1_5
+#pbp_ranking
+#blog_news
+#blog_ranking
+.footer-external-links
+.footer-blog-banner
+.ad2
+body>div>div>div.content>aside>.plugin-follow_buttons
+body>div>div>div.content>aside>.plugin-message_board
+body>div>div>div.content>nav>.article-button-simple
+body>div>div>div.content>div>.image-item
+body>div>div>div.content>aside>.plugin-blogroll
+body>div.container>div.container-inner>div.content>nav>.article-button
+body>div.container>div.container-inner>aside>.plugin-twitter_profile
+body>div.container>div.container-inner>aside>.plugin-follow_buttons
+body>div.container>div.container-inner>aside>.plugin-blogroll
+body>div.container>div.container-inner>aside>.plugin-twitter_follow_button
+body>div.container>div.container-inner>div.content>div>div.blog_ad2
+.blogreader-link
+#ld-floating-menu

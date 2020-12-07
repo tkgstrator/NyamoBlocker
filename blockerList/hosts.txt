@@ -1,0 +1,26 @@
+// blog.livedoor.jp
+
+blogroll.livedoor.net
+
+// Google Adsense
+www.googletagservices.com
+tpc.googlesyndication.com
+adservice.google.com
+adservice.google.co.jp
+
+// 
+www.gstatic.com
+js.ad-stir.com
+img-c.net
+ad-cheers.com
+js.gsspcln.jp
+gum.criteo.com
+securepubads.g.doubleclick.net
+static.adroute.focas.jp
+aladdin.genieesspv.jp
+ad.caprofitx.adtdp.com
+sh.adingo.jp
+d.line-cdn.net
+
+// Rakuten
+xml.affiliate.rakuten.co.jp

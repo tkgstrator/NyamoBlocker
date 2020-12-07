@@ -1,407 +1,209 @@
 [
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "[class^='ad-']"
-        }, 
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "blogroll\\.livedoor\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www\\.googletagservices\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "tpc\\.googlesyndication\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "adservice\\.google\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "adservice\\.google\\.co\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www\\.gstatic\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "js\\.ad-stir\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "img-c\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "ad-cheers\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "js\\.gsspcln\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "gum\\.criteo\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "securepubads\\.g\\.doubleclick\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "static\\.adroute\\.focas\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "aladdin\\.genieesspv\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "ad\\.caprofitx\\.adtdp\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "sh\\.adingo\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "d\\.line-cdn\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "xml\\.affiliate\\.rakuten\\.co\\.jp"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class^='ad-'], [class^='ad_']"
+        },
         "trigger": {
             "url-filter": "\\.*"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "[class^='ad_']"
-        }, 
-        "trigger": {
-            "url-filter": "\\.*"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "[class^='ad']"
-        }, 
+            "type": "css-display-none",
+            "selector": "[class^='ad'], .static-center-top-pcw, .announce-block"
+        },
         "trigger": {
             "url-filter": "pc\\.watch\\.impress\\.co\\.jp"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": ".static-center-top-pcw"
-        }, 
-        "trigger": {
-            "url-filter": "pc\\.watch\\.impress\\.co\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".announce-block"
-        }, 
-        "trigger": {
-            "url-filter": "pc\\.watch\\.impress\\.co\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
+            "type": "css-display-none",
             "selector": ".p-post-ad"
-        }, 
+        },
         "trigger": {
-            "url-filter": "gizmodo\\.jp"
+            "url-filter": "gizmode\\.jp"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "#module-engadget-deeplink-top-ad"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#post-center-col>div>div>div:not(:first-child)"
-        }, 
+            "type": "css-display-none",
+            "selector": "#module-engadget-deeplink-top-ad, #post-center-col>div>div>div:not(:first-child), #module-engadget-homepage-hero>div>div.D\\(f\\), #module-engadget-homepage-streams>div>div>div>div.W\\(100\\%\\).Pb\\(20px\\).Bdbc\\(engadgetWhiteSmoke\\).Bdbs\\(s\\).Bdbw\\(1px\\)>div, #module-engadget-homepage-streams>div>div>div>div.D\\(f\\).Ai\\(st\\).Pos\\(r\\).Z\\(1\\).Jc\\(c\\).Mt\\(15px\\).Mb\\(35px\\).Mih\\(250px\\), #module-engadget-deeplink-streams>div>div>div>div.D\\(f\\).Ai\\(st\\).Pos\\(r\\).Z\\(1\\).Jc\\(c\\).Mt\\(15px\\).Mb\\(35px\\).Mih\\(250px\\), .below-article-body, #post-bottom-social-share, .social-follow, .D\\(b\\)\\!--sm, #taboola-below-article-thumbnails-2nd, [id^='RR-BTF'], p>.athena-button, .Bgc(engadgetWhiteSmoke)"
+        },
         "trigger": {
             "url-filter": "japanese\\.engadget\\.com"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "#module-engadget-homepage-hero>div>div.D\\(f\\)"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#module-engadget-homepage-streams>div>div>div>div.W\\(100\\%\\).Pb\\(20px\\).Bdbc\\(engadgetWhiteSmoke\\).Bdbs\\(s\\).Bdbw\\(1px\\)>div"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#module-engadget-homepage-streams>div>div>div>div.D\\(f\\).Ai\\(st\\).Pos\\(r\\).Z\\(1\\).Jc\\(c\\).Mt\\(15px\\).Mb\\(35px\\).Mih\\(250px\\)"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#module-engadget-deeplink-streams>div>div>div>div.D\\(f\\).Ai\\(st\\).Pos\\(r\\).Z\\(1\\).Jc\\(c\\).Mt\\(15px\\).Mb\\(35px\\).Mih\\(250px\\)"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".below-article-body"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#post-bottom-social-share"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".social-follow"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".D\\(b\\)\\!--sm"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#taboola-below-article-thumbnails-2nd"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "[id^='RR-BTF']"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "p>.athena-button"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".Bgc(engadgetWhiteSmoke)"
-        }, 
-        "trigger": {
-            "url-filter": "japanese\\.engadget\\.com"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".e_frame"
-        }, 
+            "type": "css-display-none",
+            "selector": ".e_frame, #EndFooter, .followbeta, .items, #Google_RT"
+        },
         "trigger": {
             "url-filter": "gigazine\\.net"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "#EndFooter"
-        }, 
-        "trigger": {
-            "url-filter": "gigazine\\.net"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".followbeta"
-        }, 
-        "trigger": {
-            "url-filter": "gigazine\\.net"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".items"
-        }, 
-        "trigger": {
-            "url-filter": "gigazine\\.net"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#Google_RT"
-        }, 
-        "trigger": {
-            "url-filter": "gigazine\\.net"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#article-1_5"
-        }, 
+            "type": "css-display-none",
+            "selector": "#article-1_5, #pbp_ranking, #blog_news, #blog_ranking, .footer-external-links, .footer-blog-banner, .ad2, body>div>div>div.content>aside>.plugin-follow_buttons, body>div>div>div.content>aside>.plugin-message_board, body>div>div>div.content>nav>.article-button-simple, body>div>div>div.content>div>.image-item, body>div>div>div.content>aside>.plugin-blogroll, body>div.container>div.container-inner>div.content>nav>.article-button, body>div.container>div.container-inner>aside>.plugin-twitter_profile, body>div.container>div.container-inner>aside>.plugin-follow_buttons, body>div.container>div.container-inner>aside>.plugin-blogroll, body>div.container>div.container-inner>aside>.plugin-twitter_follow_button, body>div.container>div.container-inner>div.content>div>div.blog_ad2, .blogreader-link, #ld-floating-menu"
+        },
         "trigger": {
             "url-filter": "blog\\.livedoor\\.jp"
         }
-    }, 
+    },
     {
         "action": {
-            "type": "css-display-none", 
-            "selector": "#pbp_ranking"
-        }, 
+            "type": "css-display-none",
+            "selector": "#f984a, #article-1_5, #pbp_ranking, #blog_news, #blog_ranking, .footer-external-links, .footer-blog-banner, .ad2, body>div>div>div.content>aside>.plugin-follow_buttons, body>div>div>div.content>aside>.plugin-message_board, body>div>div>div.content>nav>.article-button-simple, body>div>div>div.content>div>.image-item, body>div>div>div.content>aside>.plugin-blogroll, body>div.container>div.container-inner>div.content>nav>.article-button, body>div.container>div.container-inner>aside>.plugin-twitter_profile, body>div.container>div.container-inner>aside>.plugin-follow_buttons, body>div.container>div.container-inner>aside>.plugin-blogroll, body>div.container>div.container-inner>aside>.plugin-twitter_follow_button, body>div.container>div.container-inner>div.content>div>div.blog_ad2, .blogreader-link, #ld-floating-menu"
+        },
         "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#blog_news"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#blog_ranking"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".footer-external-links"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".footer-blog-banner"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".ad2"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div>div>div.content>aside>.plugin-follow_buttons"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div>div>div.content>aside>.plugin-message_board"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div>div>div.content>nav>.article-button-simple"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div>div>div.content>div>.image-item"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div>div>div.content>aside>.plugin-blogroll"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>div.content>nav>.article-button"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>aside>.plugin-twitter_profile"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>aside>.plugin-follow_buttons"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>aside>.plugin-blogroll"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>aside>.plugin-twitter_follow_button"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "body>div.container>div.container-inner>div.content>div>div.blog_ad2"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": ".blogreader-link"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
-        }
-    }, 
-    {
-        "action": {
-            "type": "css-display-none", 
-            "selector": "#ld-floating-menu"
-        }, 
-        "trigger": {
-            "url-filter": "blog\\.livedoor\\.jp"
+            "url-filter": "news4vip\\.livedoor\\.biz"
         }
     }
 ]
