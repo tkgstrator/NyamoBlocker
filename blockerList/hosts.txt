@@ -1,14 +1,15 @@
 // blog.livedoor.jp
-
 blogroll.livedoor.net
 
 // Google Adsense
 www.googletagservices.com
+www.googletagmanager.com
 tpc.googlesyndication.com
+pagead2.googlesyndication.com
 adservice.google.com
 adservice.google.co.jp
 
-// 
+// Other Ad Server
 www.gstatic.com
 js.ad-stir.com
 img-c.net
@@ -21,6 +22,11 @@ aladdin.genieesspv.jp
 ad.caprofitx.adtdp.com
 sh.adingo.jp
 d.line-cdn.net
+d.line-scdn.net
+static.xx.fbcdn.net
+p.permalink-system.com
+www.googletagmanager.com
+cdn.caprofitx.com
 
 // Rakuten
 xml.affiliate.rakuten.co.jp

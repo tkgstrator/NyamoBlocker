@@ -77,3 +77,7 @@ body>div.container>div.container-inner>aside>.plugin-twitter_follow_button
 body>div.container>div.container-inner>div.content>div>div.blog_ad2
 .blogreader-link
 #ld-floating-menu
+
+// i2chmeijin.blog.fc2.com
+.amazon
+.entry_more>:not(dl)

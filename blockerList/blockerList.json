@@ -20,7 +20,23 @@
             "type": "block"
         },
         "trigger": {
+            "url-filter": "www\\.googletagmanager\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
             "url-filter": "tpc\\.googlesyndication\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "pagead2\\.googlesyndication\\.com"
         }
     },
     {
@@ -140,6 +156,46 @@
             "type": "block"
         },
         "trigger": {
+            "url-filter": "d\\.line-scdn\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "static\\.xx\\.fbcdn\\.net"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "p\\.permalink-system\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "www\\.googletagmanager\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
+            "url-filter": "cdn\\.caprofitx\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "block"
+        },
+        "trigger": {
             "url-filter": "xml\\.affiliate\\.rakuten\\.co\\.jp"
         }
     },
@@ -204,6 +260,15 @@
         },
         "trigger": {
             "url-filter": "news4vip\\.livedoor\\.biz"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".amazon, .entry_more>:not(dl)"
+        },
+        "trigger": {
+            "url-filter": "i2chmeijin\\.blog\\.fc2\\.com"
         }
     }
 ]

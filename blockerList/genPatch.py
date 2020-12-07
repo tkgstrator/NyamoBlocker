@@ -22,3 +22,4 @@ with open("selector.txt", mode="r") as f:
     blockerList.append({"action": {"type": "css-display-none", "selector": selector}, "trigger" : {"url-filter": domain}})
 with open("blockerList.json", mode="w") as w:
     w.write(json.dumps(blockerList, indent=4))
+print("Patch is generated!")
